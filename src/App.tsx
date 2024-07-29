@@ -8,10 +8,10 @@ import Approach from "./components/Approach";
 import Experience from "./components/Experience";
 import RecentProjects from "./components/RecentProjects";
 import { FloatingNav } from "./components/ui/FloatingNavbar";
+import About from "./components/About";
+import Techstacks from "./components/Techstacks";
 import "./App.css";
 import { useEffect } from "react";
-import ModalPopup from "./components/ModalPopup";
-import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -26,6 +26,7 @@ function App() {
           <Hero />
           <About />
           <Grid />
+          <Techstacks />
           <RecentProjects />
           <Clients />
           <Experience />
