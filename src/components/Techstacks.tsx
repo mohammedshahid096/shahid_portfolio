@@ -130,6 +130,10 @@ const Techstacks = () => {
     { logo: "/assets/svgs/vscode.svg", name: "VSCode" },
     { logo: "/assets/svgs/github.svg", name: "Github" },
     { logo: "/assets/svgs/postman.svg", name: "Postman" },
+    { logo: "/assets/svgs/bitbucket.svg", name: "Bitbucket" },
+    { logo: "/assets/svgs/aws.svg", name: "AWS" },
+    { logo: "/assets/svgs/lambda.svg", name: "Lamdba" },
+    { logo: "/assets/svgs/vercel.svg", name: "Verce" },
   ];
   return (
     <div>

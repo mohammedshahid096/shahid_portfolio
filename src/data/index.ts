@@ -1,10 +1,3 @@
-import Imageb1 from "../assets/b1.svg";
-import ImageGrid from "../assets/grid.svg";
-import Imageb5 from "../assets/b5.svg";
-import Icongit from  "../assets/git.svg";
-import Icontwit from  "../assets/twit.svg";
-import Icontlink from  "../assets/link.svg";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -20,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: Imageb1,
+    img: "/assets/b1.svg",
     imgAlt: "/b1.svg",
     spareImg: "",
   },
@@ -53,9 +46,9 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: ImageGrid,
+    img: "/assets/grid.svg",
     imgAlt: "/grid.svg",
-    spareImg: "/b4.svg",
+    spareImg: "/assets/b4.svg",
   },
 
   {
@@ -65,8 +58,9 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: Imageb5,
-    spareImg: ImageGrid,
+    img: "/assets/b5.svg",
+    imgAlt: "/b5.svg",
+    spareImg: "/assets/grid.svg",
   },
   {
     id: 6,
@@ -86,33 +80,57 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    img: "/assets/p1.svg",
+    iconLists: [
+      "/assets/re.svg",
+      "/assets/tail.svg",
+      "/assets/ts.svg",
+      "/assets/three.svg",
+      "/assets/fm.svg",
+    ],
+    link: "/assets/ui.earth.com",
   },
   {
     id: 2,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    img: "/assets/p2.svg",
+    iconLists: [
+      "/assets/next.svg",
+      "/assets/tail.svg",
+      "/assets/ts.svg",
+      "/assets/stream.svg",
+      "/assets/c.svg",
+    ],
+    link: "/assets/ui.yoom.com",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    img: "/assets/p3.svg",
+    iconLists: [
+      "/assets/re.svg",
+      "/assets/tail.svg",
+      "/assets/ts.svg",
+      "/assets/three.svg",
+      "/assets/c.svg",
+    ],
+    link: "/assets/ui.aiimg.com",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "/assets/p4.svg",
+    iconLists: [
+      "/assets/next.svg",
+      "/assets/tail.svg",
+      "/assets/ts.svg",
+      "/assets/three.svg",
+      "/assets/gsap.svg",
+    ],
+    link: "/assets/ui.apple.com",
   },
 ];
 
@@ -185,28 +203,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Backend Developer",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/assets//exp1.svg",
+    thumbnail: "/assets/exp1.svg",
+    details: [
+      {
+        heading: "Dashboard Development and Data Visualization",
+        detail:
+          "Spearheaded the development of dynamic dashboard aggregations for multiple user portals (admin, teacher, student, accountant, parent) in a school management project using the MERN (MongoDB, Express,React,Node) stack, enhancing data visualization and decision making capabilities through insightful graphs and charts",
+      },
+    ],
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Junior Software Developer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/assets/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "API Integration Developer Intern",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/assets/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Frontend Developer Intern",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/assets/exp4.svg",
@@ -216,17 +241,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: Icongit,
+    img: "/assets/git.svg",
     imgAlt: "/git.svg",
   },
   {
     id: 2,
-    img: Icontwit,
+    img: "/assets/twit.svg",
     imgAlt: "/twit.svg",
   },
   {
     id: 3,
-    img: Icontlink,
+    img: "/assets/link.svg",
     imgAlt: "/link.svg",
   },
 ];

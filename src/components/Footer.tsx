@@ -1,7 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "../data";
 import MagicButton from "./MagicButton";
-import FooterGridImage from "../assets/footer-grid.svg";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
-          src= {FooterGridImage}
+          src="/assets/footer-grid.svg"
           alt="footer-grid"
           className="w-full h-full opacity-50 "
         />
