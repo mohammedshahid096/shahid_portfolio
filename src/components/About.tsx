@@ -49,6 +49,10 @@ const MyCardProtfolio = () => {
 const About = () => {
   return (
     <>
+      <h1 className="heading mb-6" id="about">
+        Get to <span className="text-purple">Know Me</span>
+      </h1>
+
       <div className="flex justify-center max-sm:flex-col">
         <Suspense fallback={null}>
           <GridGlobe2 />

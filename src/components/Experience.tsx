@@ -5,7 +5,7 @@ import { Button } from "./ui/MovingBorders";
 const Experience = () => {
   const navigate = useNavigate();
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full" id="experience">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -35,6 +35,9 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
+                <h5 className="text-start text-md md:text-sm font-semibold">
+                  {card.companyName}
+                </h5>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}{" "}
                   <Link
@@ -44,6 +47,9 @@ const Experience = () => {
                     detail{" "}
                   </Link>
                 </p>
+                <h5 className="text-start text-md md:text-[10px] text-white-100">
+                  {card.date.startDate} - {card.date.endDate}
+                </h5>
               </div>
             </div>
           </Button>

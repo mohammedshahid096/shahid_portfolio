@@ -137,6 +137,14 @@ const Techstacks = () => {
   ];
   return (
     <div>
+      <h1 className="heading" id="techstack">
+        The <span className="text-purple">Technologies & Tools</span> I Excel In
+      </h1>
+
+      <br />
+      <br />
+      <br />
+
       <InfiniteTechStacks
         items={items}
         direction="right"

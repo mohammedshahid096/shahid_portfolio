@@ -1,7 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Tech", link: "#techstack" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -203,38 +204,118 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    companyName: "Huemn Interactive Pvt Ltd",
     title: "Backend Developer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Developing a scalable API using GraphQL to optimize data querying and integrated Google.",
     className: "md:col-span-2",
     thumbnail: "/assets/exp1.svg",
     details: [
       {
-        heading: "Dashboard Development and Data Visualization",
-        detail:
-          "Spearheaded the development of dynamic dashboard aggregations for multiple user portals (admin, teacher, student, accountant, parent) in a school management project using the MERN (MongoDB, Express,React,Node) stack, enhancing data visualization and decision making capabilities through insightful graphs and charts",
+        heading: "Developing a Robust API",
+        point:
+          "Leveraged GraphQL to build a scalable and efficient API that allows for precise data querying, minimizing over-fetching and under-fetching of data, thereby improving application performance.",
+      },
+      {
+        heading: "Integrating with Google Services",
+        point:
+          "Integrated Google Calendar, Gmail, and other Google services into the backend, utilizing GraphQL to create a unified interface for seamless communication and data synchronization across different platforms, enhancing overall productivity and user experience.",
       },
     ],
+
+    date: {
+      startDate: "June 2024",
+      endDate: "Working",
+    },
   },
+
   {
     id: 2,
+    companyName: "Tecktok4u Private Limited",
     title: "Junior Software Developer",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Developed dynamic dashboards in a MERN-based school project,and managed Git workflows.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/assets/exp2.svg",
+    details: [
+      {
+        heading: "Dashboard Development and Data Visualization",
+        point:
+          "Spearheaded the development of dynamic dashboard aggregations for multiple user portals (admin, teacher, student, accountant, parent) in a school management project using the MERN (MongoDB, Express,React,Node) stack, enhancing data visualization and decision making capabilities through insightful graphs and charts",
+      },
+      {
+        heading: "Full Stack Project Contributions",
+        point:
+          "Contributed extensively to all aspects of project development, including frontend design, API integration, and backend functionalities, demonstrating proficiency across the entire MERN‑stack and ensuring seamless communication and interaction between different system components.",
+      },
+      {
+        heading: "Git Workflow Management and Collaboration",
+        point:
+          "Responsible for managing Git workflows and facilitating code merges, ensuring version control and collaboration efficiency within the development team, while also gaining invaluable experience in real-time project management and coordination.",
+      },
+    ],
+    date: {
+      startDate: "December 2023",
+      endDate: "February 2023",
+    },
   },
+
   {
     id: 3,
+    companyName: "Groomer Private Limited",
     title: "API Integration Developer Intern",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led API integration for the Groomer project, ensuring seamless communication and optimization",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/assets/exp3.svg",
+    details: [
+      {
+        heading: "Comprehensive API Integration ",
+        point:
+          "Implemented seamless communication between different modules of the application, ensuring efficient data flow and functionality. This involved working with diverse APIs to achieve a cohesive and integrated user experience.",
+      },
+      {
+        heading: "End-to-End Project Ownership",
+        point:
+          "Took ownership of the entire API integration process for the Groomer project, from conception to deployment. Demonstrated a deep understanding of the MERN technology stack, utilizing it to optimize API performance, enhance data security, and streamline communication between front-end and back-end components.",
+      },
+      {
+        heading: "Problem Solving and Optimization ",
+        point:
+          "Identified and resolved challenges related to API compatibility, data consistency, and system performance, contributing to a more robust and efficient application. Collaborated closely with cross-functional teams to understand requirements and design scalable solutions.",
+      },
+    ],
+    date: {
+      startDate: "September 2023",
+      endDate: "November 2023",
+    },
   },
+
   {
     id: 4,
+    companyName: "Photoshooto Private Limited",
     title: "Frontend Developer Intern",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Spearheaded frontend development at Photoshooto, creating responsive, user-friendly interfaces.",
     className: "md:col-span-2",
     thumbnail: "/assets/exp4.svg",
+    details: [
+      {
+        heading: "Frontend Development  ",
+        point:
+          "Spearheaded the frontend development of three projects at Photoshooto, leveraging a tech stack that included HTML, CSS, Bootstrap, and React JS. Crafted intuitive and visually appealing user interfaces, enhancing the overall userexperience and meeting project requirements.",
+      },
+      {
+        heading: "Responsive Design Expertise ",
+        point:
+          " Demonstrated proficiency in responsive web design, ensuring seamless user interactions across various devices. Utilized Bootstrap to create mobile-friendly layouts, contributing to improved accessibility and user engagement on diverse platforms.",
+      },
+      {
+        heading: "Collaborative Problem-Solving ",
+        point:
+          "Engaged in collaborative problem-solving with cross-functional teams to understand project objectives and deliver solutions aligned with business goals. Adapted quickly to evolving project requirements, showcasing flexibility and a proactive approach in a dynamic development environment.",
+      },
+    ],
+    date: {
+      startDate: "February 2022",
+      endDate: "April 2023",
+    },
   },
 ];
 

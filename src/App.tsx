@@ -10,7 +10,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-black-100 min-h-screen w-full">
+    <div className="bg-black-100 min-h-screen w-full  scroll-smooth">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
