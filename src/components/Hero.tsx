@@ -57,10 +57,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Mohammed Shahid, a MERN Full Stack Developer based in India.
+            Hi! I&apos;m Mohammed Shahid, a MERN Full Stack Developer based in
+            India.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

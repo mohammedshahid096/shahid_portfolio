@@ -2,12 +2,13 @@ import { navItems } from "../data";
 import Hero from "../components/Hero";
 import Grid from "../components/Grid";
 import Footer from "../components/Footer";
-import Clients from "../components/Clients";
+// import Clients from "../components/Clients";
 import Experience from "../components/Experience";
 import RecentProjects from "../components/RecentProjects";
 import { FloatingNav } from "../components/ui/FloatingNavbar";
 import About from "../components/About";
 import Techstacks from "../components/Techstacks";
+import Education from "../components/Approach";
 
 const Home = () => {
   return (
@@ -16,13 +17,23 @@ const Home = () => {
         <div className="max-w-7xl w-full">
           <FloatingNav navItems={navItems} />
           <Hero />
+          {/* About section */}
           <About />
           <Grid />
+
+          {/* techstack section */}
           <Techstacks />
-          <RecentProjects />
-          {/* <Clients /> */}
+
+          {/* Experience Section */}
           <Experience />
 
+          {/* Recentprojects section */}
+          <RecentProjects />
+
+          {/* Education */}
+          <Education />
+
+          {/* Footer section */}
           <Footer />
         </div>
       </main>
