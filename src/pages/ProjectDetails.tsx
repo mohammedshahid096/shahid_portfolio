@@ -18,7 +18,7 @@ interface ProjectInterace {
   iconLists: string[];
   link: string;
   details: string[];
-  gallery: string[];
+  gallery?: string[];
   embed?: string;
   githubLink: string;
 }
