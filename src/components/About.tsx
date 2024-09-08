@@ -29,7 +29,11 @@ const MyCardProtfolio = () => {
         alt="Mohammed Shahid"
         height="400"
         width="400"
-        className="object-contain"
+        className="object-contain rounded-full border-4 border-purple border-opacity-75 shadow-md"
+        // style={{
+        //   clipPath:
+        //     "polygon(53.2% 0%, 62.1% 37.5%, 97.9% 37.5%, 67.1% 56%, 77.4% 88%, 53.2% 71.5%, 22.6% 88%, 32.9% 56%, 2.1% 37.5%, 38.1% 37.5%)",
+        // }}
       />
 
       <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">

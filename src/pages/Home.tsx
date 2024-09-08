@@ -9,6 +9,7 @@ import { FloatingNav } from "../components/ui/FloatingNavbar";
 import About from "../components/About";
 import Techstacks from "../components/Techstacks";
 import Education from "../components/Approach";
+import Resume from "../components/Resume";
 
 const Home = () => {
   return (
@@ -32,6 +33,9 @@ const Home = () => {
 
           {/* Education */}
           <Education />
+
+          {/* Resume */}
+          <Resume />
 
           {/* Footer section */}
           <Footer />

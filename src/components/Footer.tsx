@@ -31,8 +31,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center  max-md:gap-6">
+        <p className="md:text-base text-sm md:font-normal font-light text-center">
           Copyright © 2024 Mohammed shahid Nagodriya
         </p>
 
@@ -48,6 +48,14 @@ const Footer = () => {
             </a>
           ))}
         </div>
+      </div>
+
+      <div className="flex md:flex-row flex-col justify-between items-center max-md:mt-6">
+        <p className="md:text-base text-sm md:font-normal font-light">
+          <small className="p-0 m-0">www.mohdshahid303@gmail.com</small>
+          <br />
+          <small className="p-0 m-0">+91 93472 222304</small>
+        </p>
       </div>
     </footer>
   );

@@ -145,21 +145,23 @@ const Techstacks = () => {
       <br />
       <br />
 
-      <InfiniteTechStacks
-        items={items}
-        direction="right"
-        speed="slow"
-        pauseOnHover={false}
-      />
+      <div className="w-full overflow-hidden">
+        <InfiniteTechStacks
+          items={items}
+          direction="right"
+          speed="slow"
+          pauseOnHover={false}
+        />
 
-      <br />
-      <br />
-      <InfiniteTechStacks
-        items={items2}
-        direction="left"
-        speed="normal"
-        pauseOnHover={false}
-      />
+        <br />
+        <br />
+        <InfiniteTechStacks
+          items={items2}
+          direction="left"
+          speed="normal"
+          pauseOnHover={false}
+        />
+      </div>
     </div>
   );
 };

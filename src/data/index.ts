@@ -184,7 +184,7 @@ export const projects = [
       "/assets/svgs/redux.svg",
       "/assets/fm.svg",
     ],
-    link: "/assets/ui.aiimg.com",
+    link: "https://doctor-appointment-management.vercel.app/",
     githubLink:
       "https://github.com/mohammedshahid096/Doctor-Appointment-Management",
     details: [
@@ -245,7 +245,7 @@ export const projects = [
       "/assets/svgs/express.svg",
       "https://mui.com/static/icons/192x192.png",
     ],
-    link: "/assets/ui.apple.com",
+    link: "https://e-commerce-n6r3.onrender.com/",
     details: [
       "   Integrated MongoDB for a flexible and scalable database solution. Utilized Express.js to build a robust and efficient backend API.",
       "Created captivating and responsive user interfaces using React.js.",
