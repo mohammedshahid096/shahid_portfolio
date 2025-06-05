@@ -90,6 +90,7 @@ export const projects = [
       "/assets/svgs/redux.svg",
       "/assets/svgs/redis.svg",
       "/assets/svgs/mongodb.svg",
+      "/assets/svgs/express.svg",
       "https://avatars.githubusercontent.com/u/139895814?v=4",
       "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/48/google-meet-512.png",
     ],
