@@ -53,7 +53,7 @@ const RecentProjects = () => {
               </div>
 
               <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
+                <div className="flex items-center flex-wrap justify-center max-w-[55%]">
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}

@@ -80,6 +80,62 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "EduExcellence Tutorial System",
+    des: "A custom-built tuition management system designed to automate and streamline the workflow of small-scale tutors with features like automated Google Meet links, email notifications, attendance tracking, progress monitoring, and more.",
+    img: "/images/eduexcellence1.png",
+    iconLists: [
+      "/assets/re.svg",
+      "/assets/tail.svg",
+      "/assets/svgs/nodejs.svg",
+      "/assets/svgs/redux.svg",
+      "/assets/svgs/redis.svg",
+      "/assets/svgs/mongodb.svg",
+      "https://avatars.githubusercontent.com/u/139895814?v=4",
+      "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/48/google-meet-512.png",
+    ],
+    link: "https://www.eduexcellencetutorial.com",
+    githubLink: "https://github.com/mohammedshahid096/tutuion_management",
+    details: [
+      "🧩 Problem Solved: Built to help a family member (a tutor) automate manual tasks like scheduling, creating Google Meet links, sending emails, tracking attendance, and sharing notes.",
+
+      "🎛️ User Panels: Includes an Admin Portal for managing students, batches, subjects, chapters, and a Student Portal for viewing progress and downloading notes.",
+
+      "🔐 Automation Features: Automatically generates Google Meet links and sends class reminders and updates via email.",
+
+      "📊 Progress Tracking: Allows tutors to track student progress chapter-wise and send updates directly to students' inboxes.",
+
+      "📚 Notes Builder: Enables tutors to create and share study material effortlessly with a built-in notes builder.",
+
+      "🗂️ Batch & Board Management: Supports organizing content by board, class, subject, and chapter for better curriculum control.",
+
+      "📧 Email Integration: Uses email APIs to automate communication for class schedules, attendance, and progress reports.",
+
+      "📁 Real-world Use Case: A one-off solution that demonstrates how software can solve real-life problems faced by educators.",
+
+      "🛠️ Freelance Project: My first freelance side project that helped me understand user needs, build intuitive interfaces, and implement automation logic.",
+
+      "🚀 Future Scope: Potential to evolve into a full-fledged EdTech platform with multi-user support, mobile app integration, and advanced analytics.",
+    ],
+    gallery: [
+      "/images/eduexcellence1.png",
+      "/images/eduexcellence2.png",
+      "/images/eduexcellence3.png",
+      "/images/eduexcellence4.png",
+      "/images/eduexcellence5.png",
+      "/images/eduexcellence6.png",
+      "/images/eduexcellence7.png",
+      "/images/eduexcellence8.png",
+      "/images/eduexcellence9.png",
+      "/images/eduexcellence10.png",
+      "/images/eduexcellence11.png",
+      "/images/eduexcellence12.png",
+      "/images/eduexcellence13.png",
+      "/images/eduexcellence14.png",
+      "/images/eduexcellence15.png",
+    ],
+  },
+  {
+    id: 3,
     title: "Learning Management Systemt (LMS)",
     des: "A MERN stack LMS with Redux, Google Auth, YouTube scraping, secure APIs, and real-time features for seamless learning management.",
     img: "/images/lms5.png",
@@ -140,7 +196,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Chat Web Application",
     des: "Real-time MERN chat app with socket.io, Redux, and Material UI, offering seamless interactions, group chats, and admin controls",
     img: "/images/chat.png",
@@ -173,7 +229,7 @@ export const projects = [
       '<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7094020139792150528?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>',
   },
   {
-    id: 3,
+    id: 5,
     title: "Docter Management System",
     des: "Doctor Management System sounds impressive, focusing on seamless interaction between users, doctors, and admins. The features offer comprehensive functionality and control across all user levels.",
     img: "/images/docter5.png",
@@ -234,7 +290,7 @@ export const projects = [
       '<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7086783879818215424?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>',
   },
   {
-    id: 4,
+    id: 6,
     title: "E-Commerce Shopping",
     des: "🛍️ Built a Robust E-commerce Platform from Scratch using MERN Stack! 💻After an exhilarating journey spanning 5 months, I am thrilled to share the successful completion of my latest e-commerce project",
     img: "https://media.licdn.com/dms/image/v2/D5622AQGvZfcm8sZb8A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1685448456994?e=1727308800&v=beta&t=AlQh_dFtjiFgilBMNycXBJN7M9ImzRDA2HA2tYSaOns",
