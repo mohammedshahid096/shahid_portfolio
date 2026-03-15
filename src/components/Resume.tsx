@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa6";
 const Resume = () => {
   pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.mjs`;
 
-  const url: string = "/assets/documents/shahid_resume_25_june_9.pdf";
+  const url: string = "/assets/documents/shahid_resume_25_nov_23.pdf";
 
   function downloadFile() {
     const a: HTMLAnchorElement = document.createElement("a");

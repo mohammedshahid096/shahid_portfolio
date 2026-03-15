@@ -398,6 +398,41 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    companyName: "9x Technology LLC",
+    title: "Full Stack Developer (MERN)",
+    desc: "Architected and developed a multimodal AI platform that queries multiple LLMs simultaneously while also contributing to a real-time trading platform with WebSocket data streaming and interactive charting.",
+    className: "md:col-span-2",
+    thumbnail: "/assets/exp2.svg",
+    details: [
+      {
+        heading: "Multimodal AI Platform Development",
+        point:
+          "Architected and led development of a platform that concurrently queries multiple LLMs including ChatGPT, Gemini, DeepSeek, Grok, and others to generate and compare responses. Implemented Redis caching and Redis Queue for asynchronous job processing, significantly reducing response latency.",
+      },
+      {
+        heading: "Advanced AI Features Integration",
+        point:
+          "Engineered AI-powered image generation using integrations with DALL·E and other vision models. Built a 'humanize text' post-processing feature to enhance naturalness of generated responses and implemented dynamic scoring and ranking of outputs based on relevance and coherence.",
+      },
+      {
+        heading: "Scalable MERN Architecture",
+        point:
+          "Designed and implemented the full-stack architecture using the MERN stack with MongoDB for structured storage of user sessions, prompts, responses, and metadata. Developed scalable microservices for model orchestration, rate limiting, and fallback mechanisms to maintain reliability under high load.",
+      },
+      {
+        heading: "Real-Time Trading Platform Development",
+        point:
+          "Contributed to building a trading platform featuring real-time market data using WebSocket integration and interactive charting similar to TradingView. Implemented live price updates, dynamic chart drawing, and responsive UI components, gaining deep experience in real-time systems and financial data visualization.",
+      },
+    ],
+    date: {
+      startDate: "July 2025",
+      endDate: "Present",
+    },
+  },
+
+  {
+    id: 2,
     companyName: "Huemn Interactive Pvt Ltd",
     title: "Backend Developer",
     desc: "Developing a scalable API using GraphQL to optimize data querying and integrated Google.",
@@ -418,12 +453,12 @@ export const workExperience = [
 
     date: {
       startDate: "June 2024",
-      endDate: "Working",
+      endDate: "April 2025",
     },
   },
 
   {
-    id: 2,
+    id: 3,
     companyName: "Tecktok4u Private Limited",
     title: "Junior Software Developer",
     desc: "Developed dynamic dashboards in a MERN-based school project,and managed Git workflows.",
@@ -453,7 +488,7 @@ export const workExperience = [
   },
 
   {
-    id: 3,
+    id: 4,
     companyName: "Groomer Private Limited",
     title: "API Integration Developer Intern",
     desc: "Led API integration for the Groomer project, ensuring seamless communication and optimization",
@@ -483,7 +518,7 @@ export const workExperience = [
   },
 
   {
-    id: 4,
+    id: 5,
     companyName: "Photoshooto Private Limited",
     title: "Frontend Developer Intern",
     desc: "Spearheaded frontend development at Photoshooto, creating responsive, user-friendly interfaces.",
