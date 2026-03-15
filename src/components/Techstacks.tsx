@@ -45,12 +45,12 @@ const InfiniteTechStacks = ({
       if (direction === "left") {
         containerRef.current.style.setProperty(
           "--animation-direction",
-          "forwards"
+          "forwards",
         );
       } else {
         containerRef.current.style.setProperty(
           "--animation-direction",
-          "reverse"
+          "reverse",
         );
       }
     }
@@ -72,7 +72,7 @@ const InfiniteTechStacks = ({
       className={cn(
         // max-w-7xl to w-screen
         "scroller relative z-20 w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
-        className
+        className,
       )}
     >
       <ul
@@ -81,7 +81,7 @@ const InfiniteTechStacks = ({
           // change gap-16
           " flex min-w-full shrink-0 gap-16 w-max flex-nowrap",
           start && "animate-scroll ",
-          pauseOnHover && "hover:[animation-play-state:paused]"
+          pauseOnHover && "hover:[animation-play-state:paused]",
         )}
       >
         {items.map((item, idx) => (
@@ -119,10 +119,13 @@ const Techstacks = () => {
     { logo: "/assets/svgs/materialui.svg", name: "Material UI" },
     { logo: "/assets/svgs/react.svg", name: "React" },
     { logo: "/assets/svgs/typescript.svg", name: "Typescript" },
+    { logo: "/assets/svgs/shadcn.svg", name: "Shadcn" },
     { logo: "/assets/svgs/nodejs.svg", name: "Node js" },
     { logo: "/assets/svgs/mongodb.svg", name: "MongoDB" },
     { logo: "/assets/svgs/redis.svg", name: "Reis" },
     { logo: "/assets/svgs/express.svg", name: "Express js" },
+    { logo: "/assets/svgs/nestjs.svg", name: "Nest js" },
+    { logo: "/assets/svgs/prisma-orm.svg", name: "Prisma" },
     { logo: "/assets/svgs/wordpress.svg", name: "Worpress" },
   ];
 
@@ -133,7 +136,7 @@ const Techstacks = () => {
     { logo: "/assets/svgs/bitbucket.svg", name: "Bitbucket" },
     { logo: "/assets/svgs/aws.svg", name: "AWS" },
     { logo: "/assets/svgs/lambda.svg", name: "Lamdba" },
-    { logo: "/assets/svgs/vercel.svg", name: "Verce" },
+    { logo: "/assets/svgs/vercel.svg", name: "Vercel" },
   ];
   return (
     <div>
